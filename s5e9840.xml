@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="gitlab"
+            fetch="https://gitlab.com"
+            revision="lineage-23.2" />
+
+    <remote name="los"
+            fetch="https://github.com/LineageOS"
+            revision="lineage-23.2" />
+
+    <remote name="daubfy"
+            fetch="https://github.com/Daubfy"
+            revision="lineage-23.2" />
+
+    <!-- device/ -->
+        <!-- samsung/ -->
+        <project path="device/samsung/exynos2100" name="android_device_samsung_exynos2100" remote="daubfy" />
+        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" />
+        <project path="device/samsung/r9s-kernel" name="velpecula/samsung_s5e9840/android_device_samsung_r9s-kernel" remote="gitlab" />
+
+        <!-- samsung_slsi/ -->
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
+
+    <!-- hardware/ -->
+        <!-- samsung/ -->
+        <project path="hardware/samsung" name="velpecula/samsung_s5e9840/android_hardware_samsung" remote="gitlab" />
+        <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="los" />
+
+        <!-- samsung_slsi/ -->
+        <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
+        <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="los" />
+        <project path="hardware/samsung_slsi/nfc" name="android_hardware_samsung_slsi_nfc" remote="los" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="los" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="los" />
+
+        <!-- samsung_slsi-linaro/ -->
+        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="velpecula/samsung_s5e9840/android_hardware_samsung_slsi-linaro_exynos" remote="gitlab" />
+        <project path="hardware/samsung_slsi-linaro/codec2" name="velpecula/samsung_s5e9840/android_hardware_samsung_slsi-linaro_codec2" remote="gitlab" />
+        <project path="hardware/samsung_slsi-linaro/graphics" name="velpecula/samsung_s5e9840/android_hardware_samsung_slsi-linaro_graphics" remote="gitlab" />
+
+    <!-- kernel/ -->
+        <!-- samsung/ -->
+        <project path="kernel/samsung/r9s" name="velpecula/samsung_s5e9840/android_kernel_samsung_s5e9840" remote="gitlab" />
+
+    <!-- vendor/ -->
+        <!-- samsung/ -->
+        <project path="vendor/samsung/exynos2100" name="velpecula/samsung_s5e9840/proprietary_vendor_samsung_exynos2100" remote="gitlab" />
+        <project path="vendor/samsung/r9s" name="velpecula/samsung_s5e9840/proprietary_vendor_samsung_r9s" remote="gitlab" />
+
+</manifest>
