@@ -14,8 +14,8 @@
 
     <!-- device/ -->
         <!-- samsung/ -->
-        <project path="device/samsung/exynos2100" name="android_device_samsung_exynos2100" remote="daubfy" />
-        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" />
+        <project path="device/samsung/exynos2100" name="android_device_samsung_exynos2100" remote="daubfy" revision="infinity" />
+        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" revision="infinity" />
         <project path="device/samsung/r9s-kernel" name="velpecula/samsung_s5e9840/android_device_samsung_r9s-kernel" remote="gitlab" />
 
         <!-- samsung_slsi/ -->
@@ -24,7 +24,6 @@
     <!-- hardware/ -->
         <!-- samsung/ -->
         <project path="hardware/samsung" name="velpecula/samsung_s5e9840/android_hardware_samsung" remote="gitlab" />
-        <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="los" />
 
         <!-- samsung_slsi/ -->
         <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
@@ -43,7 +42,7 @@
 
     <!-- kernel/ -->
         <!-- samsung/ -->
-        <project path="kernel/samsung/r9s" name="velpecula/samsung_s5e9840/android_kernel_samsung_s5e9840" remote="gitlab" />
+        <project path="kernel/samsung/r9s" name="android_kernel_samsung_r9s" remote="daubfy" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
