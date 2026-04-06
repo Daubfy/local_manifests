@@ -14,8 +14,8 @@
 
     <!-- device/ -->
         <!-- samsung/ -->
-        <project path="device/samsung/exynos2100" name="android_device_samsung_exynos2100" remote="daubfy" revision="infinity" />
-        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" revision="infinity" />
+        <project path="device/samsung/exynos2100" name="android_device_samsung_exynos2100" remote="daubfy" revision="matrixx" />
+        <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" revision="matrixx" />
         <project path="device/samsung/r9s-kernel" name="velpecula/samsung_s5e9840/android_device_samsung_r9s-kernel" remote="gitlab" />
 
         <!-- samsung_slsi/ -->
