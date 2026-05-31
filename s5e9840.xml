@@ -42,11 +42,11 @@
 
     <!-- kernel/ -->
         <!-- samsung/ -->
-        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="exy" revision="android12-5.4-exynos" />
+        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="daubfy" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
-        <project path="vendor/samsung/universal2100-common" name="proprietary_vendor_samsung_universal2100-common" remote="daubfy" revision="lineage-23.2-msc" />
+        <project path="vendor/samsung/universal2100-common" name="proprietary_vendor_samsung_universal2100-common" remote="exy" />
         <project path="vendor/samsung/r9s" name="proprietary_vendor_samsung_r9s" remote="daubfy" />
 
 </manifest>
