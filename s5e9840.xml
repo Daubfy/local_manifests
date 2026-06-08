@@ -14,15 +14,15 @@
 
     <!-- device/ -->
         <!-- samsung/ -->
-        <project path="device/samsung/exynos2100" name="android_device_samsung_universal2100-common" remote="exy" />
+        <project path="device/samsung/universal2100-common" name="android_device_samsung_universal2100-common" remote="exy" />
         <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" />
 
         <!-- samsung_slsi/ -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="exy" />
 
     <!-- hardware/ -->
         <!-- samsung/ -->
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="daubfy" />
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="exy" />
 
         <!-- samsung_slsi/ -->
         <project path="hardware/samsung_slsi/fm" name="android_hardware_samsung_slsi_fm" remote="los" />
@@ -36,9 +36,9 @@
         <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
         <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
         <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="exy" />
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="exy" />
-        <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="exy" />
-        <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="exy" />
+        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="los" />
+        <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" />
 
     <!-- kernel/ -->
         <!-- samsung/ -->
