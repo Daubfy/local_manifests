@@ -16,9 +16,11 @@
         <!-- samsung/ -->
         <project path="device/samsung/universal2100-common" name="android_device_samsung_universal2100-common" remote="exy" />
         <project path="device/samsung/r9s" name="android_device_samsung_r9s" remote="daubfy" />
+        <project path="device/samsung/o1s" name="android_device_samsung_o1s" remote="exy" />
 
         <!-- samsung_slsi/ -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="exy" />
+
 
     <!-- hardware/ -->
         <!-- samsung/ -->
@@ -40,13 +42,16 @@
         <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="los" />
         <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" />
 
+
     <!-- kernel/ -->
         <!-- samsung/ -->
-        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="daubfy" />
+        <project path="kernel/samsung/universal2100" name="android_kernel_samsung_universal2100" remote="exy" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
         <project path="vendor/samsung/universal2100-common" name="proprietary_vendor_samsung_universal2100-common" remote="exy" />
         <project path="vendor/samsung/r9s" name="proprietary_vendor_samsung_r9s" remote="daubfy" />
+        <project path="vendor/samsung/o1s" name="proprietary_vendor_samsung_o1s" remote="exy" />
+
 
 </manifest>
